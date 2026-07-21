@@ -28,7 +28,7 @@ This counterexample has been widely and independently verified. See:
 - **Geometric construction:** [Secret Blogging Seminar — The new counterexample to the Jacobian conjecture](https://sbseminar.wordpress.com/2026/07/20/the-new-counterexample-to-the-jacobian-conjecture/) (Will Sawin, Jordan Ellenberg)
 - **News coverage:** [New Scientist — AI's solution to 87-year-old riddle](https://www.newscientist.com/article/2580374-ais-solution-to-87-year-old-riddle-takes-mathematicians-by-surprise/)
 - **Wikipedia:** [Jacobian conjecture](https://en.wikipedia.org/wiki/Jacobian_conjecture) (updated July 2026)
-- **Lean formalization:** [Formal Conjectures PR](https://github.com/google-deepmind/formal-conjectures) by Paul Rouzeau (Imperial College London)
+- **Lean formalization:** [Formal Conjectures PR](https://github.com/google-deepmind/formal-conjectures) by Paul Lezeau (Imperial College London)
 - **MathWorld:** [Jacobian Conjecture](https://mathworld.wolfram.com/JacobianConjecture.html) (updated July 2026)
 - **Verification preprint:** [arXiv — A Counterexample to the Jacobian Conjecture](https://arxiv.org/) (Zhang, 2026)
 - **Direct consequences:** [zzhang-iu.github.io — Direct Consequences of the Three-Dimensional Counterexample](https://zzhang-iu.github.io/papers/direct-consequences-jacobian/index.html)
