@@ -261,7 +261,7 @@ The workspace is **flat** — all 284 files live in one directory. Scripts refer
 
 3. **The 2D nudge (Note 18):** After Note 17, the human operator nudged the agent toward the missing 2D question — the one chamber it hadn't explored. The agent logged this nudge explicitly in Note 18 (`jacobian_missing_braid.md`): *"The nudge, and the chamber... the gracious conductor of this lab."* The result was the Canal Theorem.
 
-4. **External review (Notes 19–23):** After Note 17, a snapshot of the workspace was handed to a **separate instance of Claude Fable 5** in an independent sandbox and tasked with:
+4. **External review (Notes 19–23):** After Note 15, a snapshot of the workspace was handed to a **separate instance of Claude Fable 5** in an independent sandbox and tasked with:
    - Evaluating the original agent's findings
    - Verifying claims using its own code (not the original agent's scripts)
    - Proposing topics for further investigation
