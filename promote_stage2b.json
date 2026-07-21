@@ -1,0 +1,117 @@
+{
+ "M1": {
+  "odd_identity_zero_poly": true
+ },
+ "M2": {
+  "even_identity_zero_poly": true,
+  "sign_certificates": {
+   "A(U) dd=4+q": true,
+   "B(U) dd=2+q": true,
+   "A(-y): vertex y* >= 1 for dd>=2": true,
+   "A(-y)_at_y=1": "dd**2 + dd",
+   "B(-y): vertex form": "(8*q**2 + 40*q + 31)/(4*(q + 1)*(q + 4))",
+   "B(-y): vertex y* >= 1 for dd>=2": true,
+   "B(-y)_at_y=1": "2*dd**2 + 2*dd - 6",
+   "B(-y)_at_y=1_poscoeff_dd2+q": true
+  }
+ },
+ "M3": {
+  "eq1_branch": [
+   "{u1: log(2)}"
+  ],
+  "u2_match": true,
+  "u3_match": true,
+  "u4_match": true,
+  "u_resolved": [
+   "log(2)**2/2 + 1/2",
+   "-7/2 + log(2)**3/6 + 3*log(2)/4",
+   "-31*log(2)/8 + log(2)**4/24 + log(2)**2/2 + 355/24"
+  ],
+  "s_lead0_zero": true,
+  "s_a_match": true,
+  "s_b_match": true,
+  "s_b_resolved": "-5/2 - 2*log(2)**2 + 4*log(2)"
+ },
+ "M4": {
+  "audit": {
+   "21": {
+    "actual": 1.7985509571206353e-09,
+    "proven_env": 6.369134618537848e-09,
+    "dominates": true
+   },
+   "23": {
+    "actual": 2.2082635430417624e-10,
+    "proven_env": 7.722925227574771e-10,
+    "dominates": true
+   },
+   "25": {
+    "actual": 2.6872279831281067e-11,
+    "proven_env": 9.297267021544258e-11,
+    "dominates": true
+   },
+   "27": {
+    "actual": 3.2457296175330955e-12,
+    "proven_env": 1.1124702845513497e-11,
+    "dominates": true
+   },
+   "29": {
+    "actual": 3.895494734562579e-13,
+    "proven_env": 1.3242223032635978e-12,
+    "dominates": true
+   },
+   "31": {
+    "actual": 4.649881043786973e-14,
+    "proven_env": 1.5691870318683585e-13,
+    "dominates": true
+   },
+   "33": {
+    "actual": 5.524093596086271e-15,
+    "proven_env": 1.8521417916063066e-14,
+    "dominates": true
+   },
+   "35": {
+    "actual": 6.535429098804643e-16,
+    "proven_env": 2.1785131984989955e-15,
+    "dominates": true
+   },
+   "37": {
+    "actual": 7.703552079908705e-17,
+    "proven_env": 2.554463030847507e-16,
+    "dominates": true
+   },
+   "39": {
+    "actual": 9.050806846928258e-18,
+    "proven_env": 2.986984999395024e-17,
+    "dominates": true
+   },
+   "41": {
+    "actual": 1.06025697113157e-18,
+    "proven_env": 3.484013836206234e-18,
+    "dominates": true
+   },
+   "43": {
+    "actual": 1.2387646525319563e-19,
+    "proven_env": 4.054548279184552e-19,
+    "dominates": true
+   },
+   "45": {
+    "actual": 1.4438721218697313e-20,
+    "proven_env": 4.7087897157592804e-20,
+    "dominates": true
+   },
+   "47": {
+    "actual": 1.6792861737299357e-21,
+    "proven_env": 5.458298462257444e-21,
+    "dominates": true
+   }
+  },
+  "envelope_dominates_actual_all": true,
+  "proven_err_scaled_3^d": {
+   "12": 38.87296388344283,
+   "15": 48.230569985508026,
+   "21": 66.62339770736055,
+   "31": 96.92450833788553,
+   "47": 145.1296845287464
+  }
+ }
+}

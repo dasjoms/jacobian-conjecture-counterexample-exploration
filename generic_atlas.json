@@ -1,0 +1,98 @@
+{
+ "tower (1,-1)": {
+  "p": "-w**4 + w**3 - 27*w**2/10 + 17*w/10",
+  "wall_deg": 5,
+  "wall_terms": 14,
+  "cusps": 3,
+  "nodes": 3,
+  "real_cusps": 1,
+  "real_nodes": 1,
+  "balanced": true,
+  "empty": true,
+  "max_gap": 6.76350299394979e-61
+ },
+ "(2,-1)": {
+  "p": "-w**4 + 2*w**3 - 21*w**2/5 + 11*w/5",
+  "wall_deg": 5,
+  "wall_terms": 14,
+  "cusps": 3,
+  "nodes": 3,
+  "real_cusps": 1,
+  "real_nodes": 1,
+  "balanced": true,
+  "empty": true,
+  "max_gap": 1.2002397630640386e-61
+ },
+ "(-1,1)": {
+  "p": "w**4 - w**3 - 33*w**2/10 + 23*w/10",
+  "wall_deg": 5,
+  "wall_terms": 14,
+  "cusps": 3,
+  "nodes": 3,
+  "real_cusps": 3,
+  "real_nodes": 3,
+  "balanced": true,
+  "empty": true,
+  "max_gap": 0.0
+ },
+ "(2,2)": {
+  "p": "2*w**4 + 2*w**3 - 48*w**2/5 + 23*w/5",
+  "wall_deg": 5,
+  "wall_terms": 14,
+  "cusps": 3,
+  "nodes": 3,
+  "real_cusps": 3,
+  "real_nodes": 1,
+  "balanced": true,
+  "empty": true,
+  "max_gap": 0.0
+ },
+ "(-2,-1)": {
+  "p": "-w**4 - 2*w**3 + 9*w**2/5 + w/5",
+  "wall_deg": 5,
+  "wall_terms": 14,
+  "cusps": 3,
+  "nodes": 3,
+  "real_cusps": 3,
+  "real_nodes": 1,
+  "balanced": true,
+  "empty": true,
+  "max_gap": 0.0
+ },
+ "(1,2)": {
+  "p": "2*w**4 + w**3 - 81*w**2/10 + 41*w/10",
+  "wall_deg": 5,
+  "wall_terms": 14,
+  "cusps": 3,
+  "nodes": 3,
+  "real_cusps": 3,
+  "real_nodes": 1,
+  "balanced": true,
+  "empty": true,
+  "max_gap": 0.0
+ },
+ "(3,-2)": {
+  "p": "-2*w**4 + 3*w**3 - 39*w**2/10 + 19*w/10",
+  "wall_deg": 5,
+  "wall_terms": 14,
+  "cusps": 3,
+  "nodes": 3,
+  "real_cusps": 1,
+  "real_nodes": 1,
+  "balanced": true,
+  "empty": true,
+  "max_gap": 2.1594820167406934e-61
+ },
+ "(-3,2)": {
+  "p": "2*w**4 - 3*w**3 - 21*w**2/10 + 21*w/10",
+  "wall_deg": 5,
+  "wall_terms": 14,
+  "cusps": 3,
+  "nodes": 3,
+  "real_cusps": 3,
+  "real_nodes": 3,
+  "balanced": true,
+  "empty": true,
+  "max_gap": 0.0
+ }
+}

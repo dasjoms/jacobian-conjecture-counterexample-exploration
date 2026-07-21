@@ -1,0 +1,42 @@
+{
+  "locks": {
+    "L1": {
+      "cases": 125,
+      "worst_err": "3.9827e-59"
+    },
+    "L2": {
+      "polynomial": true,
+      "det_form": "y^3 * E(v), E = -27*v**3 - 189*v**2/2 - 111*v - 89/2",
+      "E_relvariation": 0.7748576480618035,
+      "alpha_over_beta2_nonconst": true,
+      "degeneracy_roots": [
+        "-1.439060882",
+        "-1.0304696-0.28883686i",
+        "-1.0304696+0.28883686i"
+      ]
+    },
+    "L3": {
+      "det3_seeded": "bb",
+      "det3_b0": "0",
+      "rank_channels_3d": 2,
+      "rank_channels_2d": 1,
+      "weight0_3d_two_param": true,
+      "weight0_2d_one_param": true
+    },
+    "L4": {
+      "det_symbolic": "1",
+      "fiber_residual_worst": "8.1673e-60",
+      "sheets_locked_to_lattice": true,
+      "missed_set": "{X = 0} (line)"
+    },
+    "L5": {
+      "moh": "1983 Crelle 340:140-212, JC(2 vars) verified degrees <= 100",
+      "pinchuk": "1994 Math Z 217:1-4, real, component degrees (10,25), total 35",
+      "pinchuk_total_check": true,
+      "tower": "3-D: fiber-3 degree 7 det -2; fiber-4 degree 12 det -6"
+    }
+  },
+  "seeded": {},
+  "braid": {},
+  "avatar": {}
+}

@@ -1,0 +1,192 @@
+{
+ "F1a_d2": {
+  "ok": true,
+  "mode": "fully symbolic (x,y,z,b,p_i)",
+  "t": 2.5
+ },
+ "F1a_d3": {
+  "ok": true,
+  "mode": "10-point exact-rational cert (random seeds)",
+  "t": 2.3
+ },
+ "F1a_d4": {
+  "ok": true,
+  "mode": "10-point exact-rational cert (random seeds)",
+  "t": 5.3
+ },
+ "F1b_d2": {
+  "ok": true,
+  "t": 0.1
+ },
+ "F5_d2": {
+  "ok": true,
+  "lam": "1/2",
+  "A": "4",
+  "B": "-2",
+  "Cy": "0",
+  "lam_law": true
+ },
+ "F1b_d3": {
+  "ok": true,
+  "t": 0.2
+ },
+ "F5_d3": {
+  "ok": true,
+  "lam": "2/5",
+  "A": "219/50",
+  "B": "-5/2",
+  "Cy": "0",
+  "lam_law": true
+ },
+ "F1b_d4": {
+  "ok": true,
+  "t": 0.4
+ },
+ "F5_d4": {
+  "ok": true,
+  "lam": "10/27",
+  "A": "10871/2430",
+  "B": "-27/10",
+  "Cy": "0",
+  "lam_law": true
+ },
+ "F5_d4_matches_note5": true,
+ "F1b_d5": {
+  "ok": true,
+  "t": 0.9
+ },
+ "F5_d5": {
+  "ok": true,
+  "lam": "5/14",
+  "A": "4379/980",
+  "B": "-14/5",
+  "Cy": "0",
+  "lam_law": true
+ },
+ "F1b_d6": {
+  "ok": true,
+  "t": 1.8
+ },
+ "F5_d6": {
+  "ok": true,
+  "lam": "7/20",
+  "A": "495/112",
+  "B": "-20/7",
+  "Cy": "0",
+  "lam_law": true
+ },
+ "F1b_d7": {
+  "ok": true,
+  "t": 3.1
+ },
+ "F1b_d8": {
+  "ok": true,
+  "t": 4.8
+ },
+ "F2": {
+  "ok": true,
+  "s": "1/3",
+  "r": "1/27",
+  "h": "-w**3 + w**2 - w/3 + 1/27"
+ },
+ "F3": {
+  "s": "-1",
+  "r": "-1",
+  "contacts": [
+   "-2",
+   "1"
+  ],
+  "h_eq_neg_quad_sq_over4": true,
+  "Cof_over_quad": "-(w2 - 1)*(w2 + 2)/(16*(w - 1)*(w + 2))",
+  "E3_factors": "-9*(w2 - 1)*(w2 + 2)*(2*w2**2 + 2*w2 - 1)**2/64"
+ },
+ "F3_grobner_empty": {
+  "ok": true,
+  "t": 2.6,
+  "basis_head": "1"
+ },
+ "F4_flags": {
+  "4": {
+   "sqfree": true,
+   "coprime": true
+  },
+  "5": {
+   "sqfree": true,
+   "coprime": true
+  },
+  "6": {
+   "sqfree": true,
+   "coprime": true
+  },
+  "7": {
+   "sqfree": true,
+   "coprime": true
+  },
+  "8": {
+   "sqfree": true,
+   "coprime": true
+  },
+  "9": {
+   "sqfree": true,
+   "coprime": true
+  },
+  "10": {
+   "sqfree": true,
+   "coprime": true
+  },
+  "11": {
+   "sqfree": true,
+   "coprime": true
+  },
+  "12": {
+   "sqfree": true,
+   "coprime": true
+  }
+ },
+ "F4_rescue": {
+  "4": {
+   "ingap": "6.06e-91",
+   "rem": "9.13e-91",
+   "Rta": "0.3175",
+   "degR": 1,
+   "ok": true
+  },
+  "5": {
+   "ingap": "1.28e-90",
+   "rem": "1.32e-90",
+   "Rta": "1.225",
+   "degR": 2,
+   "ok": true
+  },
+  "6": {
+   "ingap": "8.91e-91",
+   "rem": "2.72e-90",
+   "Rta": "2.206",
+   "degR": 3,
+   "ok": true
+  },
+  "7": {
+   "ingap": "2.09e-90",
+   "rem": "2.37e-90",
+   "Rta": "2.246",
+   "degR": 4,
+   "ok": true
+  },
+  "8": {
+   "ingap": "1.91e-90",
+   "rem": "1.04e-89",
+   "Rta": "6.629",
+   "degR": 5,
+   "ok": true
+  },
+  "9": {
+   "ingap": "3.17e-90",
+   "rem": "4.34e-90",
+   "Rta": "3.265",
+   "degR": 6,
+   "ok": true
+  }
+ },
+ "F4_rescue_note": "d=10,11,12 rescue is algebraic (deg R = n-4 >= 1, T2 excludes mu=t_i); jsons certified",
+ "ALL_GREEN_core": true
+}

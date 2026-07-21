@@ -1,0 +1,28 @@
+{
+  "F6": {
+    "targets": 12,
+    "fiber_lens": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "all_four": true,
+    "all_distinct": true,
+    "worst_residual": "6.3239e-58",
+    "true_fiber_equation": "X*(9v^2+12v+1)^2 = 4*Y^2*(3v^2+7v+4)"
+  },
+  "FZ": {
+    "real_root_r0": "-1.43906088216892392",
+    "E_negative_for_v_gt_r0": true,
+    "degeneracy_locus": "{y = 0} union {xy = r0}"
+  }
+}

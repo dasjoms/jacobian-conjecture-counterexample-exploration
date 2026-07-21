@@ -1,0 +1,136 @@
+option(redSB);
+ring R1 = 0,(w1,P,Q),dp;
+ideal I = (-1)*w1^3 + (1)*w1^2 - P*w1 - Q,
+(-3)*w1^2 + (2)*w1^1 - P,
+(-6)*w1^1 + (2);
+"=== CASE: family_d2 (n=3) pattern (3,) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R7 = 0,(w1,w2,P,Q,s1),dp;
+ideal I = (-1/4)*w1^4 + (-1/2)*w1^3 + (3/4)*w1^2 - P*w1 - Q,
+(-1)*w1^3 + (-3/2)*w1^2 + (3/2)*w1^1 - P,
+(-1/4)*w2^4 + (-1/2)*w2^3 + (3/4)*w2^2 - P*w2 - Q,
+(-1)*w2^3 + (-3/2)*w2^2 + (3/2)*w2^1 - P,
+s1*(w1-w2) - 1;
+"=== CASE: family_d3 (n=4) pattern (2, 2) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R13 = 0,(w1,P,Q),dp;
+ideal I = (-1/4)*w1^4 + (-1/2)*w1^3 + (3/4)*w1^2 - P*w1 - Q,
+(-1)*w1^3 + (-3/2)*w1^2 + (3/2)*w1^1 - P,
+(-3)*w1^2 + (-3)*w1^1 + (3/2),
+(-6)*w1^1 + (-3);
+"=== CASE: family_d3 (n=4) pattern (4,) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R19 = 0,(w1,w2,P,Q,s1),dp;
+ideal I = (-1/5)*w1^5 + (1/4)*w1^4 + (-9/10)*w1^3 + (17/20)*w1^2 - P*w1 - Q,
+(-1)*w1^4 + (1)*w1^3 + (-27/10)*w1^2 + (17/10)*w1^1 - P,
+(-4)*w1^3 + (3)*w1^2 + (-27/5)*w1^1 + (17/10),
+(-1/5)*w2^5 + (1/4)*w2^4 + (-9/10)*w2^3 + (17/20)*w2^2 - P*w2 - Q,
+(-1)*w2^4 + (1)*w2^3 + (-27/10)*w2^2 + (17/10)*w2^1 - P,
+s1*(w1-w2) - 1;
+"=== CASE: family_d4 (n=5) pattern (3, 2) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R25 = 0,(w1,P,Q),dp;
+ideal I = (-1/5)*w1^5 + (1/4)*w1^4 + (-9/10)*w1^3 + (17/20)*w1^2 - P*w1 - Q,
+(-1)*w1^4 + (1)*w1^3 + (-27/10)*w1^2 + (17/10)*w1^1 - P,
+(-4)*w1^3 + (3)*w1^2 + (-27/5)*w1^1 + (17/10),
+(-12)*w1^2 + (6)*w1^1 + (-27/5),
+(-24)*w1^1 + (6);
+"=== CASE: family_d4 (n=5) pattern (5,) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R31 = 0,(w1,w2,w3,P,Q,s1,s2,s3),dp;
+ideal I = (-1/6)*w1^6 + (1/5)*w1^5 + (-14/15)*w1^3 + (9/10)*w1^2 - P*w1 - Q,
+(-1)*w1^5 + (1)*w1^4 + (-14/5)*w1^2 + (9/5)*w1^1 - P,
+(-1/6)*w2^6 + (1/5)*w2^5 + (-14/15)*w2^3 + (9/10)*w2^2 - P*w2 - Q,
+(-1)*w2^5 + (1)*w2^4 + (-14/5)*w2^2 + (9/5)*w2^1 - P,
+(-1/6)*w3^6 + (1/5)*w3^5 + (-14/15)*w3^3 + (9/10)*w3^2 - P*w3 - Q,
+(-1)*w3^5 + (1)*w3^4 + (-14/5)*w3^2 + (9/5)*w3^1 - P,
+s1*(w1-w2) - 1,
+s2*(w1-w3) - 1,
+s3*(w2-w3) - 1;
+"=== CASE: family_d5 (n=6) pattern (2, 2, 2) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R37 = 0,(w1,w2,P,Q,s1),dp;
+ideal I = (-1/6)*w1^6 + (1/5)*w1^5 + (-14/15)*w1^3 + (9/10)*w1^2 - P*w1 - Q,
+(-1)*w1^5 + (1)*w1^4 + (-14/5)*w1^2 + (9/5)*w1^1 - P,
+(-5)*w1^4 + (4)*w1^3 + (-28/5)*w1^1 + (9/5),
+(-1/6)*w2^6 + (1/5)*w2^5 + (-14/15)*w2^3 + (9/10)*w2^2 - P*w2 - Q,
+(-1)*w2^5 + (1)*w2^4 + (-14/5)*w2^2 + (9/5)*w2^1 - P,
+(-5)*w2^4 + (4)*w2^3 + (-28/5)*w2^1 + (9/5),
+s1*(w1-w2) - 1;
+"=== CASE: family_d5 (n=6) pattern (3, 3) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R43 = 0,(w1,w2,P,Q,s1),dp;
+ideal I = (-1/6)*w1^6 + (1/5)*w1^5 + (-14/15)*w1^3 + (9/10)*w1^2 - P*w1 - Q,
+(-1)*w1^5 + (1)*w1^4 + (-14/5)*w1^2 + (9/5)*w1^1 - P,
+(-5)*w1^4 + (4)*w1^3 + (-28/5)*w1^1 + (9/5),
+(-20)*w1^3 + (12)*w1^2 + (-28/5),
+(-1/6)*w2^6 + (1/5)*w2^5 + (-14/15)*w2^3 + (9/10)*w2^2 - P*w2 - Q,
+(-1)*w2^5 + (1)*w2^4 + (-14/5)*w2^2 + (9/5)*w2^1 - P,
+s1*(w1-w2) - 1;
+"=== CASE: family_d5 (n=6) pattern (4, 2) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R49 = 0,(w1,P,Q),dp;
+ideal I = (-1/6)*w1^6 + (1/5)*w1^5 + (-14/15)*w1^3 + (9/10)*w1^2 - P*w1 - Q,
+(-1)*w1^5 + (1)*w1^4 + (-14/5)*w1^2 + (9/5)*w1^1 - P,
+(-5)*w1^4 + (4)*w1^3 + (-28/5)*w1^1 + (9/5),
+(-20)*w1^3 + (12)*w1^2 + (-28/5),
+(-60)*w1^2 + (24)*w1^1,
+(-120)*w1^1 + (24);
+"=== CASE: family_d5 (n=6) pattern (6,) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R55 = 0,(w1,w2,P,Q,s1),dp;
+ideal I = (-1/2)*w1^4 + (1/2)*w1^2 - P*w1 - Q,
+(-2)*w1^3 + (1)*w1^1 - P,
+(-1/2)*w2^4 + (1/2)*w2^2 - P*w2 - Q,
+(-2)*w2^3 + (1)*w2^1 - P,
+s1*(w1-w2) - 1;
+"=== CASE: G_seed (n=4) pattern (2, 2) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R61 = 0,(w1,P,Q),dp;
+ideal I = (-1/2)*w1^4 + (1/2)*w1^2 - P*w1 - Q,
+(-2)*w1^3 + (1)*w1^1 - P,
+(-6)*w1^2 + (1),
+(-12)*w1^1;
+"=== CASE: G_seed (n=4) pattern (4,) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R67 = 0,(w1,w2,P,Q,s1),dp;
+ideal I = (3/2)*w1^4 + (-4)*w1^3 + (5/2)*w1^2 - P*w1 - Q,
+(6)*w1^3 + (-12)*w1^2 + (5)*w1^1 - P,
+(3/2)*w2^4 + (-4)*w2^3 + (5/2)*w2^2 - P*w2 - Q,
+(6)*w2^3 + (-12)*w2^2 + (5)*w2^1 - P,
+s1*(w1-w2) - 1;
+"=== CASE: H_seed (n=4) pattern (2, 2) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }
+ring R73 = 0,(w1,P,Q),dp;
+ideal I = (3/2)*w1^4 + (-4)*w1^3 + (5/2)*w1^2 - P*w1 - Q,
+(6)*w1^3 + (-12)*w1^2 + (5)*w1^1 - P,
+(18)*w1^2 + (-24)*w1^1 + (5),
+(36)*w1^1 + (-24);
+"=== CASE: H_seed (n=4) pattern (4,) ===";
+I = groebner(I);
+"emptiness flag (0 => EMPTY / no such line):", size(reduce(1, I));
+if (size(reduce(1, I)) != 0) { "basis:"; I; }

@@ -1,0 +1,11 @@
+LIB "primdec.lib";
+ring S = 0,(A,B,C),dp;
+ideal I1 = 27*A*C^2 - 4, 3*B*C - 4;      // my predicted missing curve equations
+ideal I2 = 3*B*C - 4, 12*A - B^2;        // grobcov's no-solution segment equations
+ideal r1 = radical(I1);
+ideal r2 = radical(I2);
+"rad(I1) == rad(I2)?";
+"test rad I1 subset rad I2:", size(reduce(r1, std(r2))) == 0;
+"test rad I2 subset rad I1:", size(reduce(r2, std(r1))) == 0;
+"radical(I1) ="; r1;
+"dimension of V:", dim(std(r1)), " (expect 1 = a curve)";

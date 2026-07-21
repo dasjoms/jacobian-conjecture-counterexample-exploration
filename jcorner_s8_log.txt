@@ -1,0 +1,48 @@
+(C1) worst residual: 6.4658652e-86
+(C2) ghost race
+  d=21: resid 1.799e-9   resid/3^(-d/2) = 0.00018395
+  d=23: resid 2.208e-10   resid/3^(-d/2) = 6.7756e-5
+  d=25: resid 2.687e-11   resid/3^(-d/2) = 2.4735e-5
+  d=27: resid 3.246e-12   resid/3^(-d/2) = 8.9629e-6
+  d=29: resid 3.895e-13   resid/3^(-d/2) = 3.2272e-6
+  d=31: resid 4.65e-14   resid/3^(-d/2) = 1.1556e-6
+  d=33: resid 5.524e-15   resid/3^(-d/2) = 4.1187e-7
+  d=35: resid 6.535e-16   resid/3^(-d/2) = 1.4618e-7
+  d=37: resid 7.704e-17   resid/3^(-d/2) = 5.1693e-8
+  d=39: resid 9.051e-18   resid/3^(-d/2) = 1.822e-8
+  d=41: resid 1.06e-18   resid/3^(-d/2) = 6.4032e-9
+  d=43: resid 1.239e-19   resid/3^(-d/2) = 2.2444e-9
+  d=45: resid 1.444e-20   resid/3^(-d/2) = 7.848e-10
+  d=47: resid 1.679e-21   resid/3^(-d/2) = 2.7383e-10
+  (A2) d=47 resid < 1e-19: True; ratio@43+ < 1e-6: True
+(C3) left-cusp fixed point
+  d= 7: fixed-point err 1.0559e-13
+  d= 9: fixed-point err 1.2822e-15
+  d=11: fixed-point err 2.6462e-16
+  d=13: fixed-point err 9.9205e-17
+  d=17: fixed-point err 1.1082e-17
+  d=25: fixed-point err 3.4754e-19
+  d=33: fixed-point err 2.6738e-20
+  d=41: fixed-point err 3.5317e-21
+  worst err d=7..41: 1.0559e-13  [<3e-4: True]
+(M3) m(3) census, 1e6
+  m(3) = 5.6125% +- 0.0690%   in [8.45, 8.85]: False
+  d=5: crunode (-0.88188341, -0.88337174)  gap s_c-s* = 0.00065530891  r_c-s_c = -0.001488332
+  d=7: crunode (-0.90945711, -0.91031417)  gap s_c-s* = 0.00039753006  r_c-s_c = -0.00085705913
+  d=9: crunode (-0.92871629, -0.92924251)  gap s_c-s* = 0.00024952315  r_c-s_c = -0.00052622276
+  shadow s*(11) = -0.941787843968
+  F1 publish: crunode(11) s ~ -0.941620808 window (-0.94242081, -0.94082081)
+                     r ~ -0.941973073 window (-0.94272307, -0.94122307)
+  d=5: |contact_t2 - t*| = 5.30452e-5   x d^3 = 0.00663065
+  d=7: |contact_t2 - t*| = 1.93872e-5   x d^3 = 0.00664981
+  d=9: |contact_t2 - t*| = 8.71366e-6   x d^3 = 0.00635226
+  d=6: corner-side whisker acnode (-0.1006823047, -0.8641963291)  |s+1|=0.8993177
+  d=8: corner-side whisker acnode (-0.6434167474, -1.070194512)  |s+1|=0.35658325
+  d=10: corner-side whisker acnode (-0.8422014562, -1.101886218)  |s+1|=0.15779854
+  F2 publish: whisker acnode(12)  s in (-0.9439381, -0.8939381), r in (-1.16, -1.10)
+  U(45): exact 0.016486571795756 vs series4 0.016486870085557  diff 2.982898e-7
+  s*(11): exact -0.941787843968  2-term pred -0.940308229082  diff 0.0014796149
+  s*(21): exact -0.969834940138  2-term pred -0.969606399354  diff 0.00022854078
+  s*(45): exact -0.986124109273  2-term pred -0.986100040473  diff 2.40688e-5
+saved jcorner_final.json [40s]
+SUMMARY: C1 True  C2-47 True  C3 True  M3 False

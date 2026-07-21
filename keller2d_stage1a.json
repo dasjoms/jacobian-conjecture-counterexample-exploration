@@ -1,0 +1,8 @@
+{
+ "K1": {
+  "free_after_closure": [],
+  "x_free": true,
+  "det_expr_before_gamma_choice": "V**2*(-2*W*ga_*Subs(dp_, _xi_1, W) + c*ga_**2 + c*ga_*Subs(dq_, _xi_1, W) + ga_*p(W) + p(W)*Subs(dq_, _xi_1, W) - 2*q(W)*Subs(dp_, _xi_1, W))/W**2"
+ },
+ "log": []
+}

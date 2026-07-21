@@ -1,0 +1,82 @@
+{
+ "4": {
+  "den": 10,
+  "K": 100,
+  "elim_deg": 12,
+  "cof_deg": 6,
+  "scale": true,
+  "sqfree": true,
+  "coprime": true,
+  "where": "recomputed today"
+ },
+ "5": {
+  "den": 5,
+  "K": 25,
+  "elim_deg": 20,
+  "cof_deg": 12,
+  "scale": true,
+  "sqfree": true,
+  "coprime": true,
+  "where": "recomputed today"
+ },
+ "6": {
+  "den": 7,
+  "K": 49,
+  "elim_deg": 30,
+  "cof_deg": 20,
+  "scale": true,
+  "sqfree": true,
+  "coprime": true,
+  "where": "recomputed today"
+ },
+ "7": {
+  "den": 28,
+  "K": 784,
+  "elim_deg": 42,
+  "cof_deg": 30,
+  "scale": true,
+  "sqfree": true,
+  "coprime": true,
+  "where": "recomputed today"
+ },
+ "8": {
+  "den": 12,
+  "K": 144,
+  "elim_deg": 56,
+  "cof_deg": 42,
+  "scale": true,
+  "sqfree": true,
+  "coprime": true,
+  "where": "recomputed today"
+ },
+ "9": {
+  "den": 15,
+  "K": 225,
+  "elim_deg": 72,
+  "cof_deg": 56,
+  "scale": true,
+  "sqfree": true,
+  "coprime": true,
+  "where": "recomputed today"
+ },
+ "10": {
+  "den": 55,
+  "K": 3025,
+  "elim_deg": 90,
+  "cof_deg": 72,
+  "scale": true,
+  "sqfree": true,
+  "coprime": true,
+  "where": "note-14 archive (sq+cop), scale rechecked"
+ },
+ "11": {
+  "den": 22,
+  "K": 484,
+  "elim_deg": 110,
+  "cof_deg": 90,
+  "scale": true,
+  "sqfree": true,
+  "coprime": true,
+  "where": "recomputed today"
+ }
+}

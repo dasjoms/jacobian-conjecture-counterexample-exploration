@@ -1,0 +1,6 @@
+{
+ "AL": "-s*log(s/2 + 5/2) + s - 5*log(s/2 + 5/2) + 5",
+ "BL": "-s*log(s + 5)**2/2 + s*log(s + 5)/2 + s*log(2)*log(s + 5) - s/2 - s*log(2)/2 - s*log(2)**2/2 - 13*log(s + 5)**2/2 + 5*log(s + 5)/2 + 13*log(2)*log(s + 5) - 13*log(2)**2/2 - 5*log(2)/2 + 5/2",
+ "cert0": true,
+ "cert1": false
+}

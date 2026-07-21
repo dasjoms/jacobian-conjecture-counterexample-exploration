@@ -1,0 +1,29 @@
+{
+ "locks": "see header",
+ "L1": {
+  "fails": [],
+  "range": "d=2..300",
+  "PASS": true,
+  "ratio_c(d+1)/c(d)": "dd/(2*(dd - 2))",
+  "ratio_c_at_5": "5/6",
+  "ratio_c_diff_factored": "-1/((dd - 2)*(dd - 1))",
+  "ratio_c_monotone_decreasing": true
+ },
+ "L2": {
+  "failures": {},
+  "positive_root_unique_in_(0,1/2)": true,
+  "negative_root_window_kept": true,
+  "counts_ok_d2..150": true,
+  "spot": {
+   "d=2": "1",
+   "d=3": "2",
+   "d=11": "2",
+   "d=47": "2",
+   "d=150": "1"
+  }
+ },
+ "L3": {},
+ "L4": {},
+ "L5": {},
+ "L6": {}
+}

@@ -1,0 +1,15 @@
+LIB "grobcov.lib";
+ring R = (0,A,B,C),(x,y,z),lp;
+poly f1 = (1+x*y)^3*z + y^2*(1+x*y)*(4+3*x*y);
+poly f2 = y + 3*x*(1+x*y)^2*z + 3*x*y^2*(4+3*x*y);
+poly f3 = 2*x - 3*x^2*y - x^3*z;
+ideal I = f1 - A, f2 - B, f3 - C;
+def G = grobcov(I);
+ideal M = 27*A*C^2 - 4, 3*B*C - 4;
+for (int i = 1; i <= size(G); i++) {
+  "segment", i, ":  #entries =", size(G[i]), " basis-leading-polys:";
+  for (int j = 1; j <= size(G[i][1]); j++) { string s = string(G[i][1][j]); if (size(s) > 60) { s = s[1,60] + "..."; } "   ", s; }
+  "   P-ideal:", G[i][2];
+  "   N-ideal:", G[i][3];
+}
+"membership check: is (27AC^2-4) in some no-solution P?  done above by eye";

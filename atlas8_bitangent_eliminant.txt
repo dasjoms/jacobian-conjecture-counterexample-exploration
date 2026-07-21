@@ -1,0 +1,1 @@
+(12*p8')^2 * cofactor[deg42]; elim = 144*p8'^2*cofactor exactly

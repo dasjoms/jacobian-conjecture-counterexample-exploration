@@ -1,0 +1,61 @@
+// SURJECTIVITY TEST HARNESS
+// For fiber degree n = d+1 of the seed family p_d, a target has NO preimage iff
+// there is a line y = P w - Q whose every contact with Phi has order >= 2
+// (all roots of Phi - Pw + Q multiple; gamma = 0 is then automatic).
+// We test every all-multiple partition pattern; std == (1) means impossible.
+// Distinctness of contact points is forced by s*(wi-wj)-1 auxiliary variables.
+
+proc patt_test(Phi, list parts, string label) {
+  int n = deg(Phi);
+  int m = size(parts);
+  string vartxt = "x";   // placeholder, built below
+  // build ring: variables w1..wm, P, Q, s1..sK (distinctness auxiliaries)
+  int K = 0; for (int i = 1; i <= m; i++) { for (int j = i+1; j <= m; j++) { K++; } }
+  string rv = "ring R = 0,(w1";
+  for (i = 2; i <= m; i++) { rv = rv + ",w" + string(i); }
+  rv = rv + ",P,Q";
+  for (i = 1; i <= K; i++) { rv = rv + ",s" + string(i); }
+  rv = rv + "),dp;";
+  execute(rv);
+  poly phi = imap(ringof(Phi), Phi);   // see caller setup below
+  ideal I = 0;
+  for (i = 1; i <= m; i++) {
+    poly wv = var(i);
+    poly lin = P * wv + Q;
+    poly f = phi - lin;
+    poly df = diff(phi, wv_placeholder) ;
+    // NOTE: proper implementation below in caller; this proc is unused
+  }
+}
+
+// ---- direct, explicit computations (no proc tricks) ----
+
+proc init(string seedtxt) {
+  // returns Phi as poly in ring S0 = Q[w]
+  string cmd = "ring S0 = 0,(w),dp; poly p = " + seedtxt + "; poly Phi = intpoly(p); export Phi; execute ? dummy ?";
+}
+print("see per-case code in file");
+
+// ============ case d=2, pattern (3): expect cusp at w=1/3,P=1/3,Q=1/27 ============
+{
+string case_label = "d=2 (n=3), pattern (3)";
+ring R = 0,(w1,P,Q),dp;
+poly Phi = w1^2 - w1^3;   // Phi evaluated at w1
+ideal I = Phi - P*w1 - Q,
+        diff(w1^2 - w1^3, w1) - P,
+        diff(w1^2 - w1^3, w1, 2);
+option(redSB); I = groebner(I);
+case_label; I;
+// solve: J[1]=... should force w1=1/3, P=1/3, 27Q-1
+}
+
+// ============ case d=3 (G's fiber), pattern (2,2): expect bitangent P=0,Q=-1/8 ============
+{
+string case_label = "d=3 quartic (w^2-w^4)/2, pattern (2,2)";
+ring R = 0,(w1,w2,P,Q,s),dp;
+poly f1 = (w1^2 - w1^4)/2 - P*w1 - Q;
+poly f2 = (w2^2 - w2^4)/2 - P*w2 - Q;
+ideal I = f1, f2, diff((w1^2 - w1^4)/2, w1) - P, diff((w2^2 - w2^4)/2, w2) - P, s*(w1-w2)-1;
+option(redSB); I = groebner(I);
+case_label; I;
+}

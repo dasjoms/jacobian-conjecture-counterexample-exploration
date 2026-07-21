@@ -1,0 +1,245 @@
+{
+ "2": {
+  "n": 3,
+  "den": "1",
+  "class_ok": true,
+  "pp_sq": true,
+  "sturm_real": 1,
+  "terms": 5,
+  "pred_terms": 6,
+  "sN": -4,
+  "sN_fact": {
+   "2": 2
+  },
+  "magnitude_law_ratio": "1",
+  "content": "1",
+  "content_fact": null,
+  "elim_twice": true,
+  "cof_sqfree": true,
+  "cof_coprime": true,
+  "holes": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ },
+ "3": {
+  "n": 4,
+  "den": "2",
+  "class_ok": true,
+  "pp_sq": true,
+  "sturm_real": 2,
+  "terms": 9,
+  "pred_terms": 10,
+  "sN": 27,
+  "sN_fact": {
+   "3": 3
+  },
+  "magnitude_law_ratio": "1",
+  "content": "256",
+  "content_fact": {
+   "2": 8
+  },
+  "elim_twice": true,
+  "cof_sqfree": true,
+  "cof_coprime": true,
+  "holes": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ },
+ "4": {
+  "n": 5,
+  "den": "10",
+  "class_ok": true,
+  "pp_sq": true,
+  "sturm_real": 1,
+  "terms": 14,
+  "pred_terms": 14,
+  "sN": -8192000,
+  "sN_fact": {
+   "2": 16,
+   "5": 3
+  },
+  "magnitude_law_ratio": "1",
+  "content": "25600",
+  "content_fact": {
+   "2": 10,
+   "5": 2
+  },
+  "elim_twice": true,
+  "cof_sqfree": true,
+  "cof_coprime": true,
+  "holes": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ },
+ "5": {
+  "n": 6,
+  "den": "5",
+  "class_ok": true,
+  "pp_sq": true,
+  "sturm_real": 2,
+  "terms": 20,
+  "pred_terms": 20,
+  "sN": 1220703125,
+  "sN_fact": {
+   "5": 13
+  },
+  "magnitude_law_ratio": "1",
+  "content": "5832000",
+  "content_fact": {
+   "2": 6,
+   "3": 6,
+   "5": 3
+  },
+  "elim_twice": true,
+  "cof_sqfree": true,
+  "cof_coprime": true,
+  "holes": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "stored_match": true
+ },
+ "6": {
+  "n": 7,
+  "den": "7",
+  "class_ok": true,
+  "pp_sq": true,
+  "sturm_real": 1,
+  "terms": 26,
+  "pred_terms": 26,
+  "sN": -36585180721152,
+  "sN_fact": {
+   "2": 12,
+   "3": 12,
+   "7": 5
+  },
+  "magnitude_law_ratio": "1",
+  "content": "13716864",
+  "content_fact": {
+   "2": 7,
+   "3": 7,
+   "7": 2
+  },
+  "elim_twice": true,
+  "cof_sqfree": true,
+  "cof_coprime": true,
+  "holes": [
+   [
+    5,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "stored_match": true
+ },
+ "7": {
+  "n": 8,
+  "den": "28",
+  "class_ok": true,
+  "pp_sq": true,
+  "sturm_real": 2,
+  "terms": 34,
+  "pred_terms": 34,
+  "sN": 11672468669822098432,
+  "sN_fact": {
+   "2": 10,
+   "7": 19
+  },
+  "magnitude_law_ratio": "1",
+  "content": "5619712",
+  "content_fact": {
+   "2": 14,
+   "7": 3
+  },
+  "elim_twice": true,
+  "cof_sqfree": true,
+  "cof_coprime": true,
+  "holes": [
+   [
+    6,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "stored_match": true
+ },
+ "8": {
+  "n": 9,
+  "den": "12",
+  "class_ok": true,
+  "pp_sq": true,
+  "sturm_real": 1,
+  "terms": 43,
+  "pred_terms": 42,
+  "sN": -70039981404865953792,
+  "sN_fact": {
+   "2": 58,
+   "3": 5
+  },
+  "magnitude_law_ratio": "1",
+  "content": "208971104256",
+  "content_fact": {
+   "2": 17,
+   "3": 13
+  },
+  "elim_twice": true,
+  "cof_sqfree": true,
+  "cof_coprime": true,
+  "holes": [
+   [
+    7,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "stored_match": true
+ }
+}
